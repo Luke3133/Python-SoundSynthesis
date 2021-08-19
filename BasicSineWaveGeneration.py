@@ -59,7 +59,8 @@ stream = p.open(
 )
 stream.start_stream()
 
-# The following code is used to keep the program looping
+# The following code is used to keep the program looping forever. To end the project early, add an event listener and
+# update x to be greater than y.
 x, y = 1, 2
 try:
     while True:
